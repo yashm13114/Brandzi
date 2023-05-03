@@ -11,29 +11,14 @@ import Footer from "./Footer";
 
 const Home = () => {
   
-  var swiper = new Swiper('.mySwiper', {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});
+
+ 
 
   return (
     <>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   
     
-      <div className="swiper mySwiper bg-blue-500 sm:flex pl-11 pr-11 text-white ">
+      <div className=" bg-blue-500 sm:flex pl-11 pr-11 text-white ">
         <div className=" pt-10 font-bold">
           <h4 className="text-lg">WE HELP YOUR BUSINESS BECOME A BRAND</h4>
           <br />
@@ -65,40 +50,22 @@ const Home = () => {
             <img
               id=""
               src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              className="swiper-slide h-80 w-80  pt-5 pb-5 pl-4"
+              className=" h-80 w-80  pt-5 pb-5 pl-4"
               alt=""
             />
             <img
               id=""
               src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              className="swiper-slide h-80 w-80  pt-5 pb-5 pl-4 "
+              className=" h-80 w-80  pt-5 pb-5 pl-4 "
               alt=""
             />
-            <img
-              id=""
-              src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              className="swiper-slide  h-80 w-80  pt-5 pb-5 pl-4 "
-              alt=""
-            />
-            <img
-              id=""
-              src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              className="swiper-slide h-80 w-80  pt-5 pb-5 pl-4 "
-              alt=""
-            />
-            <img
-              id=""
-              src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              className="swiper-slide h-80 w-80  pt-5 pb-5 pl-4 "
-              alt=""
-            />
+            
+            
             
           </div>
           
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+        
         
       </div>
       
