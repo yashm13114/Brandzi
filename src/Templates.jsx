@@ -3,7 +3,7 @@ import React from "react";
 const Templates = () => {
   return (
     <>
-      <div className="drop-shadow-2xl border-4 bg-blue-100">
+      <div className="drop-shadow-2xl border-4 bg-blue-100 ">
         <h1 className="text-base text-blue-400 pl-32 pt-20">
           CUSTOMIZE ANY TEMPLATE, OR DESIGN SOMETHING MORE PERSONAL, LIKE AN
           INVITATION.
@@ -14,7 +14,7 @@ const Templates = () => {
         <br />
         <div className="flex justify-evenly">
           <img
-            className="h-40 w-40"
+            className="h-40 w-40 "
             src="https://www.pngitem.com/pimgs/m/152-1525707_we-re-hiring-free-clipart-png-download-we.png"
             alt=""
           />

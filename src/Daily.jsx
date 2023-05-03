@@ -1,6 +1,8 @@
 import React from "react";
 import Dailypic from "./Dailypic";
-import ContactDaily from "./Dailypic";
+import ContactDaily from "./ContactDaily";
+import Footer2 from "./Footer2";
+
 
 const Daily = () => {
   return (
@@ -12,6 +14,8 @@ const Daily = () => {
        </div>
        <Dailypic />
        <ContactDaily />
+       <Footer2 />
+       
     </>
   );
 };

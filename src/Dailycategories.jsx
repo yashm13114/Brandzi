@@ -5,8 +5,10 @@ const Dailycategories = () => {
     <>
       <h1 className="text-4xl pl-11">Daily Categories</h1>
       <br />
+      <marquee className="" behavior="" scrollamount="4" direction="" >
 
       <div className="flex justify-evenly">
+      
         <div className="">
           <img className="h-40  rounded-full" src="123.webp" />
         </div>
@@ -33,7 +35,9 @@ const Dailycategories = () => {
         <div className="">
           <img className="h-40 w-40" src="123.webp" />
         </div>
+        
       </div>
+      </marquee>
       <br />
       <br />
       <br />

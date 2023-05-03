@@ -7,8 +7,8 @@ const Festivals = () => {
         <h1 className="text-4xl">Festivals</h1>
         <br />
         <br />
-
-        <div className="flex justify-center">
+        <marquee className="" behavior="" scrollamount="4" direction="" >
+        <div className="flex justify-center relative">
           <div className="HOLI">
             <img
               className="h-44 w-60 pr-14"
@@ -46,6 +46,7 @@ const Festivals = () => {
             />
           </div>
         </div>
+        </marquee>
       </div>
       <br />
       <br />
