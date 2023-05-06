@@ -30,9 +30,9 @@ const Home = () => {
           <h4 className="text-xl">
             10000+Permimum posts for every bussiness to 10x its growth
           </h4>
-          <div className="sm:flex:w-[30%] sm:align-middle">
+          <div className="flex sm:align-middle">
             
-            <img src="./assets/images/Download_on_the_App_.png" className="pt-10 h-24 w-48 " />
+            <img src="./assets/images/Download_on_the_App_.png" className="pt-10 h-24 w-48 pr-4" />
             <img
               src="./assets/images/Logo-app-Instalcion-Google-Play-Store.png"
               className="pt-10 h-24 w-48 "

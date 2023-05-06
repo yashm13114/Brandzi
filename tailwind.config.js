@@ -1,17 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./src/**/*.{js,jsx,ts,tsx}"],
+    content: ["./src/**/*.{js,jsx,ts,tsx}", "./node_modules/tw-elements/dist/js/**/*.js", "./src/**/*.{html,js}"],
     theme: {
         extend: {
-            wiggle: {
-                '0%, 100%': { transform: 'rotate(-3deg)' },
-                '50%': { transform: 'rotate(3deg)' },
-            },
 
-            pulse: {
-                'pulse': 'pulse 3s linear infinite',
-            }
         },
     },
-    plugins: [],
+    plugins: [require("tw-elements/dist/plugin.cjs")],
+    darkMode: "class"
 }

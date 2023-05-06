@@ -34,9 +34,9 @@ const Navbar = () => {
                 <a href="/Blogs">Blogs</a>
               </li>
               <button className="bg-white hover:outline-blue hover:bg-blue-400 hover:text-white  pt-1 text-blue-500 rounded-full pl-3 pr-3 h-17 pb-4">
-                <a href="">Sign Up | Login</a>
+                <a href="/Signup">Sign Up | Login</a>
               </button>
-              <i className="fa-solid fa-bars lg:hidden md:hidden sm:block"></i>
+              
             </ul>
             
           </div>
