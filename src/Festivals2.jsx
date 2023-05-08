@@ -3,11 +3,13 @@ import Dailypic from "./Dailypic";
 import Contactus from "./Contactus";
 import Contactdaily from "./ContactDaily";
 import Footer2 from "./Footer2";
+import Navbar  from "./navbar";
 
 const Festivals2 = () =>{
     return (
         <>
-        <div className="bg-blue-500 text-white pl-32">
+        <Navbar />
+        <div className="bg-blue-500 text-white pl-32 relative top-24">
         <h1 className="text-5xl font-bold pt-16">Festival Categories</h1>
         <br />
         <p className="text-2xl pb-16">Home / Festival Categories</p>

@@ -1,7 +1,7 @@
 import About from "./about";
 import Home from "./home";
-import {Routes, Route} from 'react-router-dom'
-import Navbar from "./navbar";
+import { Routes, Route } from 'react-router-dom'
+
 import Daily from "./Daily";
 import Blogs from "./blogs";
 import Festivals from "./Festivals";
@@ -16,16 +16,17 @@ import Blogs2 from "./Blogs2";
 
 
 function App() {
-  return (<>
-  
-    <Navbar />
-    
-      <Routes>
-        <Route path="home" element={<Home />}>
-          
-        </Route>
-        
+  return (
+    <>
+
       
+      <Routes>
+
+        <Route path="home" element={<Home />}>
+
+        </Route>
+
+
         <Route path="about" element={<About />}></Route>
         <Route path="Daily" element={<Daily />}></Route>
         <Route path="Days" element={<Days />}></Route>
@@ -35,8 +36,8 @@ function App() {
         <Route path="Signup" element={<Signup />}></Route>
         <Route path="Afterlogin" element={<Afterlogin />}></Route>
         <Route path="Blogs2" element={<Blogs2 />}></Route>
-        
-        
+
+
       </Routes></>
   );
 };

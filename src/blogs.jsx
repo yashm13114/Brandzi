@@ -1,14 +1,16 @@
 import React from "react";
 import Contactdaily from "./ContactDaily";
 import Footer2 from "./Footer2";
+import Navbar  from "./navbar";
 
 
 const Blogs = () => {
   return (
     <>
+    <Navbar />
       
     <div>
-      <div class="flex justify-evenly align-middle">
+      <div class="flex justify-evenly align-middle relative top-20">
         <div class="w-96">
           <img
             src="./assets/images/brandzi app icon-01.png"

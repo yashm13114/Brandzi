@@ -7,6 +7,7 @@ import {
    Carousel,
    initTE,
  } from "tw-elements"
+import Navbar2 from './Navbar2';
 
 
 
@@ -18,9 +19,10 @@ const Afterlogin = () =>{
 
     return (
         <>
+        <Navbar2 />
          <div
             id="carouselExampleIndicators"
-            className="relative"
+            className="relative top-24 mb-10"
             data-te-carousel-init
             data-te-carousel-slide>
            

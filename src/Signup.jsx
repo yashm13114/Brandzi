@@ -1,9 +1,12 @@
 import React from 'react'
 import firebase from './firebase'
 import { Link } from "react-router-dom";
+import Navbar  from "./navbar";
 const Signup = () => {
    
       return (
+        <>
+        <Navbar />
         <div className='grid justify-center align-middle pt-44 drop-shadow-2xl'>
           <h2>Login Form</h2>
           <form>
@@ -18,6 +21,7 @@ const Signup = () => {
             <Link to="/Afterlogin"><button type="submit"  className='align-middle pl-5 pr-5 ml-10 border-2 rounded-2xl bg-blue-500 text-white'>Submit</button></Link>
           </form>
         </div>
+        </>
       )
     
   }

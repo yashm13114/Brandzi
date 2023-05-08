@@ -1,8 +1,9 @@
 import React from "react";
-
+import Navbar  from "./navbar";
 const Features = () => {
   return (
     <>
+    
       <div className="pl-20">
         <h1 className="text-4xl">Set Of features</h1>
         <br />
