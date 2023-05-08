@@ -29,4 +29,4 @@ const Footerlogin = () =>{
         </>
     )
 }
-export default Footerlogin
+export default Footerlogin;

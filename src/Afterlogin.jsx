@@ -182,7 +182,7 @@ const Afterlogin = () =>{
         
         
         </>
-    )
+    );
 
-}
+};
 export default Afterlogin;

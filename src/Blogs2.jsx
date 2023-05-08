@@ -25,6 +25,6 @@ const Blogs2 = () =>{
         <Footer />
         </>
 
-    )
-}
-export default Blogs2
+    );
+};
+export default Blogs2;

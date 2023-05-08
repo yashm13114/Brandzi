@@ -18,7 +18,7 @@ const Festivals2 = () =>{
         <Contactdaily />
         <Footer2 />
         </>
-    )
-}
+    );
+};
 
 export default Festivals2;
