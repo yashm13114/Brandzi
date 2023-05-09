@@ -201,6 +201,6 @@ const Imageslogin = () =>{
          
         </>
 
-    )
-}
-export default Imageslogin
+    );
+};
+export default Imageslogin;

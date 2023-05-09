@@ -1,12 +1,32 @@
-import React from "react";
-import Home from "./home";
+// import React from "react";
+// import Home from "./home";
 
 
-function Import(){
-    return(
-        <>
-          <Home />
-        </>
-    );
-}
-export default Import;
+
+// function Import(){
+//     return(
+//         <>
+//           <Home />
+//         </>
+//     );
+// }
+// export default Import;
+
+// function import(){
+//     return(
+//         <>
+//           <Home />
+//         </>
+//     );
+// };
+// export default Import;
+
+
+// function import(){
+//     return(
+//         <>
+//           <Home />
+//         </>
+//     );
+// };
+// export default Import;
