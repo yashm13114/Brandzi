@@ -2,10 +2,11 @@ import React from "react";
 import Home from "./home";
 
 
-function import(){
+function Import(){
     return(
         <>
           <Home />
         </>
     );
 }
+export default Import;

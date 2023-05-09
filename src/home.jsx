@@ -10,10 +10,6 @@ import Footer from "./Footer";
 import  Navbar  from "./navbar";
 
 const Home = () => {
-
-
-
-
   return (
     <>
       <Navbar />
