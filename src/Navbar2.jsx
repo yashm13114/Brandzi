@@ -21,10 +21,10 @@ const Navbar2 = () => {
                                 <a href="/Daily">Custom</a>
                             </li>
                             <li className="hover:border-b-2 rounded-md border-white border-pb-5">
-                                <a href="/Festivals2">Pricing</a>
+                                <a href="/Pricing">Pricing</a>
                             </li>
                             <li className="hover:border-b-2 rounded-md border-white border-pb-5">
-                                <a href="/Days">Brand Feed</a>
+                                <a href="/Pricing">Brand Feed</a>
                             </li>
                             <li className="hover:border-b-2 rounded-md border-white border-pb-5">
                                 <a href="/Businesscategories">Downloads</a>

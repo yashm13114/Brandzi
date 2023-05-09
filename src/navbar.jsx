@@ -19,22 +19,22 @@ const Navbar = () => {
           block">
             <ul className="sm:flex  space-x-10 list-none text-xl pt-5 ">
               <li className="hover:border-b-2 rounded-md border-white border-pb-5">
-                <a href="/Daily">Daily</a>
+                <Link to='/Daily'>Daily</Link>
               </li>
               <li className="hover:border-b-2 rounded-md border-white border-pb-5">
                 <a href="/Festivals2">Festival</a>
               </li>
               <li className="hover:border-b-2 rounded-md border-white border-pb-5">
-                <a href="/Days">Days</a>
+              <a href="/Days">Days</a>
               </li>
               <li className="hover:border-b-2 rounded-md border-white border-pb-5">
-                <a href="/Businesscategories">Business Categories</a>
+              <a href="/Businesscategories">Business Categories</a>
               </li>
               <li className="hover:border-b-2 rounded-md border-white border-pb-5">
-                <a href="/blogs">Blogs</a>
+              <a href="/blogs">Blogs</a>
               </li>
               <button className="bg-white hover:outline-blue  hover:bg-blue-400 hover:text-white   text-blue-500 rounded-full pl-3 pr-3 h-17 pb-2 pt-1">
-                <a href="/Signup">Sign Up | Login</a>
+              <a href="/Signup">Sign Up | Login</a>
               </button>
               
             </ul>

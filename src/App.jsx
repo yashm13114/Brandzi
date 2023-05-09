@@ -11,19 +11,19 @@ import Blogs2 from "./Blogs2";
 
 
 
+
 function App() {
   return (
     <>
   
       
     
-
-
-        <Routes>
+      
+         <Routes>
 
         <Route path="home" element={<Home />}>
 
-        </Route>
+        </Route> 
 
         
         <Route path="Daily" element={<Daily />}></Route>
@@ -34,6 +34,7 @@ function App() {
         <Route path="Signup" element={<Signup />}></Route>
         <Route path="Afterlogin" element={<Afterlogin />}></Route>
         <Route path="Blogs2" element={<Blogs2 />}></Route>
+        
 
 
 
